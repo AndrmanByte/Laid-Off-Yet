@@ -1,0 +1,38 @@
+﻿name: Scenario Request
+description: 申请新增一个真实场景（examples/resources）
+title: "[scenario] "
+labels:
+  - scenario
+body:
+  - type: textarea
+    id: scene
+    attributes:
+      label: 场景描述
+      placeholder: 这个场景发生在什么情况下
+    validations:
+      required: true
+
+  - type: textarea
+    id: user_input
+    attributes:
+      label: 典型用户输入
+      placeholder: 用户会怎么问
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_output
+    attributes:
+      label: 期望输出重点
+      description: 请按 8 段结构描述你希望的重点
+      placeholder: 先稳住 / 局面判断 / 行动清单 ...
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我确认该场景已做脱敏，不含真实隐私
+          required: true

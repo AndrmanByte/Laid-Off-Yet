@@ -1,0 +1,39 @@
+﻿name: Feature Request
+description: 提出一个能力增强建议（不改变项目定位）
+title: "[feature] "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 你想解决的问题
+      placeholder: 当前哪里不够用
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议方案
+      placeholder: 你建议新增什么内容
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: 影响场景
+      placeholder: 对哪些用户场景有帮助
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 该建议不涉及前端/后端/API/数据库功能扩展
+          required: true
+        - label: 该建议与 Agent Skill 仓库定位一致
+          required: true

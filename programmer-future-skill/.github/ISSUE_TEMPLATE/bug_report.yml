@@ -1,0 +1,47 @@
+﻿name: Bug Report
+description: 报告一个内容错误、结构问题或逻辑缺陷
+title: "[bug] "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: 问题描述
+      description: 具体描述哪里有问题
+      placeholder: 哪个文件、哪一段、出现了什么问题
+    validations:
+      required: true
+
+  - type: input
+    id: file_path
+    attributes:
+      label: 相关文件路径
+      placeholder: 例如 .agents/skills/程序员未来/decision-tree.md
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现方式
+      description: 如何复现这个问题
+      placeholder: 1. ... 2. ... 3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望结果
+      placeholder: 你希望改成什么样
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我确认未提交任何真实隐私或敏感资料
+          required: true

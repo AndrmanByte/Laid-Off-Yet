@@ -1,0 +1,37 @@
+﻿name: Prompt Improvement
+description: 改进提示词、输出结构或分流逻辑
+title: "[prompt] "
+labels:
+  - prompt
+body:
+  - type: textarea
+    id: current
+    attributes:
+      label: 当前问题
+      placeholder: 当前提示词或结构哪里不理想
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 改进建议
+      placeholder: 建议怎么改
+    validations:
+      required: true
+
+  - type: textarea
+    id: benefit
+    attributes:
+      label: 预期收益
+      placeholder: 对哪些场景更好，为什么
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 改进建议仍遵循项目风格（冷静、现实、行动导向）
+          required: true
