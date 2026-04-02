@@ -12,7 +12,6 @@
   <a href="README.md">中文</a>
   · <a href="README.en.md">English</a>
 </p>
-<p align="center"><sub>说明：GitHub 仓库首页固定显示 <code>README.md</code>；英文说明见 <a href="README.en.md">README.en.md</a>。</sub></p>
 
 ---
 
