@@ -1,6 +1,6 @@
 <div align="center">
 
-# 裁了么
+# Laid Off Yet?裁了么
 
 <br>
 
