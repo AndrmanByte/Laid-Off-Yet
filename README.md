@@ -14,10 +14,6 @@
 </p>
 <p align="center"><sub>说明：GitHub 仓库首页固定显示 <code>README.md</code>；英文说明见 <a href="README.en.md">README.en.md</a>。</sub></p>
 
-<p align="center">
-  <strong>友链</strong>：<a href="https://linux.do">LINUX DO</a>（本开源项目已与 LINUX DO 社区建立友链）
-</p>
-
 ---
 
 <h2 id="sec-what">🤔 裁了么是什么</h2>
