@@ -1,0 +1,2313 @@
+{
+  "version": "1.1",
+  "schema_note": "与 career_paths.id 对齐；文本为中文；收入为大致区间，须声明地域差异。含 common_entry_barriers（常见进入门槛）。",
+  "roles": [
+    {
+      "id": "continue_same_track",
+      "name": "继续找同类岗位",
+      "aliases": [
+        "本行跳槽",
+        "同职能求职"
+      ],
+      "category": "employment",
+      "suitable_backgrounds": [
+        "希望简历连贯",
+        "仍认可原技能价值",
+        "本地仍有对口岗位"
+      ],
+      "common_job_titles": [
+        "与原岗位一致的 Title",
+        "同行业相关岗位"
+      ],
+      "job_requirements": [
+        "同行业经验",
+        "项目/成果可量化",
+        "稳定性说明（空窗可准备口径）"
+      ],
+      "core_skills": [
+        "与原职一致的核心能力",
+        "面试表达与案例复盘"
+      ],
+      "transferable_skills": [
+        "不适用：本方向为延续而非跨岗"
+      ],
+      "skills_to_build": [
+        "面试故事线",
+        "作品集/业绩整理",
+        "目标公司业务了解"
+      ],
+      "difficulty": 1,
+      "recommendation_score": 9,
+      "learning_cycle": "1～2 周优化简历与面试",
+      "income_range": "与原资历接近；跳槽常见 ±10%～30%，个案差异大",
+      "stability": "取决于行业与公司；经验可解释性最强",
+      "market_demand": "随行业周期波动；通常高于纯零基础转行",
+      "side_hustle_friendly": false,
+      "pros": [
+        "学习成本最低",
+        "能力复利最大",
+        "路径清晰"
+      ],
+      "cons": [
+        "行业收缩时竞争大",
+        "倦怠未解决易重复受挫"
+      ],
+      "trial_plan_30d": "同城同行投递 30+；每周复盘反馈；约 3 位圈内信息访谈",
+      "not_suitable_for": [
+        "明确抗拒原工种且无法调适",
+        "本地已无供给岗位"
+      ],
+      "common_entry_barriers": [
+        "对口岗位仍在招聘",
+        "能接受面试与背调口径准备"
+      ]
+    },
+    {
+      "id": "admin_assistant",
+      "name": "行政 / 助理",
+      "aliases": [
+        "综合文员",
+        "部门助理"
+      ],
+      "category": "employment",
+      "suitable_backgrounds": [
+        "细心",
+        "服务意识",
+        "能接受杂事"
+      ],
+      "common_job_titles": [
+        "行政专员",
+        "总经理助理",
+        "部门助理",
+        "前台行政（部分）"
+      ],
+      "job_requirements": [
+        "Office",
+        "会务差旅",
+        "采购比价",
+        "档案管理"
+      ],
+      "core_skills": [
+        "多任务排序",
+        "沟通",
+        "保密",
+        "执行力"
+      ],
+      "transferable_skills": [
+        "任何协调、客服、运营支持经历"
+      ],
+      "skills_to_build": [
+        "行政场景话术",
+        "OA/审批流程",
+        "基础供应商沟通"
+      ],
+      "difficulty": 2,
+      "recommendation_score": 7,
+      "learning_cycle": "2～6 周可投递",
+      "income_range": "约 4k～12k/月（城市与公司规模差异大）",
+      "stability": "中等偏上",
+      "market_demand": "岗位面较广",
+      "side_hustle_friendly": false,
+      "pros": [
+        "门槛相对低",
+        "跨行业可投"
+      ],
+      "cons": [
+        "天花板明显",
+        "杂事多"
+      ],
+      "trial_plan_30d": "精修简历突出协调与会务；投本地中小企业 20+；可试兼职会务",
+      "not_suitable_for": [
+        "强烈排斥琐碎事务与服务定位"
+      ],
+      "common_entry_barriers": [
+        "多数要求办公软件与沟通",
+        "部分要求驾照或形象岗"
+      ]
+    },
+    {
+      "id": "hr_recruiting",
+      "name": "人事 / 招聘",
+      "aliases": [
+        "招聘专员",
+        "人事专员"
+      ],
+      "category": "employment",
+      "suitable_backgrounds": [
+        "喜欢与人沟通",
+        "能承受招聘 KPI"
+      ],
+      "common_job_titles": [
+        "招聘专员",
+        "HRBP 助理",
+        "SSC 操作岗"
+      ],
+      "job_requirements": [
+        "招聘流程",
+        "渠道",
+        "面试与入职手续"
+      ],
+      "core_skills": [
+        "沟通判断",
+        "时间管理",
+        "基础劳动法常识（非律师级）"
+      ],
+      "transferable_skills": [
+        "销售",
+        "客服",
+        "运营（人际类）",
+        "行政入转调离"
+      ],
+      "skills_to_build": [
+        "结构化面试",
+        "人才画像",
+        "渠道规则"
+      ],
+      "difficulty": 3,
+      "recommendation_score": 6,
+      "learning_cycle": "1～3 个月（视是否有人带）",
+      "income_range": "约 5k～15k/月；与甲方乙方、KPI 强相关",
+      "stability": "中等",
+      "market_demand": "岗位多但竞争与指标并存",
+      "side_hustle_friendly": true,
+      "pros": [
+        "需求稳定",
+        "可跨行业"
+      ],
+      "cons": [
+        "情绪劳动",
+        "指标压力"
+      ],
+      "trial_plan_30d": "筛简历练习+笔记；5 次 HR 访谈；投助理级岗位",
+      "not_suitable_for": [
+        "抗拒电话/重复沟通",
+        "对指标极度焦虑"
+      ],
+      "common_entry_barriers": [
+        "部分要求人力相关专业或经验",
+        "招聘岗常有 KPI 面试"
+      ]
+    },
+    {
+      "id": "finance_accounting",
+      "name": "财务 / 出纳 / 统计",
+      "aliases": [
+        "费用会计助理",
+        "应收应付"
+      ],
+      "category": "employment",
+      "suitable_backgrounds": [
+        "细心",
+        "数字敏感",
+        "愿考证"
+      ],
+      "common_job_titles": [
+        "出纳",
+        "费用会计助理",
+        "应收/应付",
+        "统计文员"
+      ],
+      "job_requirements": [
+        "财务相关背景或经验",
+        "部分要求初级会计"
+      ],
+      "core_skills": [
+        "Excel",
+        "核对",
+        "票据",
+        "基础报表"
+      ],
+      "transferable_skills": [
+        "行政报销",
+        "采购对账",
+        "运营数据整理"
+      ],
+      "skills_to_build": [
+        "会计基础",
+        "税务常识",
+        "财务软件"
+      ],
+      "difficulty": 4,
+      "recommendation_score": 6,
+      "learning_cycle": "考证 3～6 个月不等",
+      "income_range": "约 4k～12k/月（出纳偏低）",
+      "stability": "相对较高",
+      "market_demand": "有证有经验更易",
+      "side_hustle_friendly": false,
+      "pros": [
+        "路径标准",
+        "可进阶"
+      ],
+      "cons": [
+        "入门重复性高",
+        "责任边界需清"
+      ],
+      "trial_plan_30d": "初级课程+刷题；Excel 模拟对账表；投「助理+有人带」",
+      "not_suitable_for": [
+        "极度厌恶数字与细节"
+      ],
+      "common_entry_barriers": [
+        "常要求财务相关背景或初级会计证",
+        "无经验多从助理起"
+      ]
+    },
+    {
+      "id": "sales_bd",
+      "name": "销售 / 商务",
+      "aliases": [
+        "BD",
+        "客户代表"
+      ],
+      "category": "employment",
+      "suitable_backgrounds": [
+        "能承受拒绝",
+        "愿为多劳多得承担波动"
+      ],
+      "common_job_titles": [
+        "销售",
+        "商务拓展",
+        "渠道",
+        "招商"
+      ],
+      "job_requirements": [
+        "沟通",
+        "自驱",
+        "客户开发"
+      ],
+      "core_skills": [
+        "需求挖掘",
+        "方案呈现",
+        "谈判",
+        "回款与 Pipeline"
+      ],
+      "transferable_skills": [
+        "对外",
+        "运营",
+        "客服",
+        "采购中的说服协作"
+      ],
+      "skills_to_build": [
+        "行业知识",
+        "CRM",
+        "销售流程"
+      ],
+      "difficulty": 3,
+      "recommendation_score": 7,
+      "learning_cycle": "数周到数月（出单周期因客单价而异）",
+      "income_range": "底薪约 3k～8k + 提成，综合波动大",
+      "stability": "偏低到中",
+      "market_demand": "岗位数量通常多",
+      "side_hustle_friendly": true,
+      "pros": [
+        "变现直接",
+        "锻炼面宽"
+      ],
+      "cons": [
+        "压力大",
+        "收入不稳"
+      ],
+      "trial_plan_30d": "选细分客群+10 次陌拜/电话复盘；访谈销冠；小单试点",
+      "not_suitable_for": [
+        "完全无法接受拒绝与 KPI",
+        "需固定月薪且无缓冲"
+      ],
+      "common_entry_barriers": [
+        "多数低门槛入职但高淘汰",
+        "部分行业要求资源或驾照"
+      ]
+    },
+    {
+      "id": "cs_customer_service",
+      "name": "客户成功 / 客服",
+      "aliases": [
+        "在线客服",
+        "售后顾问",
+        "CSM"
+      ],
+      "category": "employment",
+      "suitable_backgrounds": [
+        "耐心",
+        "表达清晰",
+        "情绪劳动可承受"
+      ],
+      "common_job_titles": [
+        "客服专员",
+        "在线客服",
+        "客户成功经理"
+      ],
+      "job_requirements": [
+        "打字/话术",
+        "产品学习",
+        "工单系统"
+      ],
+      "core_skills": [
+        "倾听",
+        "问题解决",
+        "跨部门拉通"
+      ],
+      "transferable_skills": [
+        "运营",
+        "销售支持",
+        "行政接待"
+      ],
+      "skills_to_build": [
+        "产品知识",
+        "SLA",
+        "CSM 需懂生命周期"
+      ],
+      "difficulty": 2,
+      "recommendation_score": 7,
+      "learning_cycle": "2～8 周",
+      "income_range": "客服约 4k～10k；CSM 视行业更高",
+      "stability": "中等",
+      "market_demand": "客服需求大；优质 CSM 要经验",
+      "side_hustle_friendly": true,
+      "pros": [
+        "入门较快",
+        "可转运营/CSM"
+      ],
+      "cons": [
+        "情绪劳动",
+        "部分倒班"
+      ],
+      "trial_plan_30d": "突出问题解决案例；工单复盘模板；试兼职在线客服",
+      "not_suitable_for": [
+        "情绪易失控",
+        "厌恶重复问题"
+      ],
+      "common_entry_barriers": [
+        "打字速度/普通话",
+        "能接受排班与话术考核"
+      ]
+    },
+    {
+      "id": "operations_content",
+      "name": "运营 / 新媒体 / 内容",
+      "aliases": [
+        "新媒体运营",
+        "内容运营"
+      ],
+      "category": "employment",
+      "suitable_backgrounds": [
+        "愿输出",
+        "能接受数据复盘"
+      ],
+      "common_job_titles": [
+        "新媒体运营",
+        "内容运营",
+        "用户运营",
+        "活动运营"
+      ],
+      "job_requirements": [
+        "作品",
+        "账号或项目数据",
+        "基础工具"
+      ],
+      "core_skills": [
+        "选题",
+        "文案/脚本",
+        "数据分析（岗相关）"
+      ],
+      "transferable_skills": [
+        "销售文案",
+        "培训演讲",
+        "活动落地"
+      ],
+      "skills_to_build": [
+        "平台规则",
+        "剪辑/排版工具",
+        "投放常识（视岗）"
+      ],
+      "difficulty": 3,
+      "recommendation_score": 6,
+      "learning_cycle": "1～3 个月出作品",
+      "income_range": "约 5k～18k/月；新人偏低",
+      "stability": "中等",
+      "market_demand": "有作品显著更容易",
+      "side_hustle_friendly": true,
+      "pros": [
+        "可作品化",
+        "与副业协同"
+      ],
+      "cons": [
+        "竞争与加班",
+        "KPI 多样"
+      ],
+      "trial_plan_30d": "定赛道产出 15 条内容或 1 次活动复盘+数据截图",
+      "not_suitable_for": [
+        "完全不愿展示作品",
+        "排斥数据迭代"
+      ],
+      "common_entry_barriers": [
+        "作品或账号数据",
+        "工具与加班节奏"
+      ]
+    },
+    {
+      "id": "product_project_coord",
+      "name": "产品 / 项目协调",
+      "aliases": [
+        "产品助理",
+        "项目助理",
+        "实施协调"
+      ],
+      "category": "employment",
+      "suitable_backgrounds": [
+        "逻辑清晰",
+        "擅长推进与文档"
+      ],
+      "common_job_titles": [
+        "产品助理",
+        "项目经理助理",
+        "实施顾问",
+        "交付协调"
+      ],
+      "job_requirements": [
+        "需求沟通",
+        "文档",
+        "进度跟踪"
+      ],
+      "core_skills": [
+        "结构化沟通",
+        "风险意识",
+        "里程碑管理"
+      ],
+      "transferable_skills": [
+        "技术/测试/运营/实施协作经验"
+      ],
+      "skills_to_build": [
+        "敏捷/项目表",
+        "原型工具入门"
+      ],
+      "difficulty": 4,
+      "recommendation_score": 6,
+      "learning_cycle": "2～4 个月（助理向）",
+      "income_range": "约 6k～18k/月",
+      "stability": "中到偏上",
+      "market_demand": "依赖行业与作品",
+      "side_hustle_friendly": true,
+      "pros": [
+        "可迁移性强"
+      ],
+      "cons": [
+        "背锅风险",
+        "需求变更频繁"
+      ],
+      "trial_plan_30d": "虚拟需求文档+排期表；3 场访谈；投助理/实施",
+      "not_suitable_for": [
+        "讨厌文档会议",
+        "抗拒多方协调"
+      ],
+      "common_entry_barriers": [
+        "相关协作经验",
+        "文档与工具基础"
+      ]
+    },
+    {
+      "id": "supply_procurement",
+      "name": "供应链 / 采购",
+      "aliases": [
+        "采购专员",
+        "跟单",
+        "物控"
+      ],
+      "category": "employment",
+      "suitable_backgrounds": [
+        "细致",
+        "成本与交期意识"
+      ],
+      "common_job_titles": [
+        "采购专员",
+        "采购助理",
+        "供应链专员",
+        "物控"
+      ],
+      "job_requirements": [
+        "询价比价",
+        "合同基础",
+        "交期跟进"
+      ],
+      "core_skills": [
+        "Excel",
+        "供应商管理",
+        "替代方案意识"
+      ],
+      "transferable_skills": [
+        "行政采购",
+        "财务对账",
+        "生产计划旁路"
+      ],
+      "skills_to_build": [
+        "品类知识",
+        "付款与合同条款"
+      ],
+      "difficulty": 3,
+      "recommendation_score": 6,
+      "learning_cycle": "1～3 个月",
+      "income_range": "约 5k～15k/月",
+      "stability": "中等偏上",
+      "market_demand": "对口经验更易",
+      "side_hustle_friendly": false,
+      "pros": [
+        "实业链路清晰"
+      ],
+      "cons": [
+        "扯皮多",
+        "交期质量压力"
+      ],
+      "trial_plan_30d": "整理比价/跟单案例；学 1 个品类成本结构；投助理",
+      "not_suitable_for": [
+        "极怕冲突",
+        "不愿为交期焦虑"
+      ],
+      "common_entry_barriers": [
+        "行业/品类经验优先",
+        "部分要求驾照"
+      ]
+    },
+    {
+      "id": "training_instructor",
+      "name": "培训 / 讲师",
+      "aliases": [
+        "内训师",
+        "讲师"
+      ],
+      "category": "employment",
+      "suitable_backgrounds": [
+        "表达好",
+        "有领域知识或愿做技能教培"
+      ],
+      "common_job_titles": [
+        "企业内训师",
+        "讲师",
+        "机构讲师"
+      ],
+      "job_requirements": [
+        "试讲",
+        "课程结构",
+        "学员互动"
+      ],
+      "core_skills": [
+        "课程设计",
+        "表达控场",
+        "测验反馈"
+      ],
+      "transferable_skills": [
+        "内训",
+        "演讲",
+        "售前客户培训"
+      ],
+      "skills_to_build": [
+        "教学法基础",
+        "PPT/教案",
+        "赛道合规"
+      ],
+      "difficulty": 3,
+      "recommendation_score": 6,
+      "learning_cycle": "1～3 个月试讲准备",
+      "income_range": "约 5k～20k+/月；兼职按课时",
+      "stability": "机构随政策与招生波动",
+      "market_demand": "依赖赛道与证书",
+      "side_hustle_friendly": true,
+      "pros": [
+        "成就感",
+        "可计时变现"
+      ],
+      "cons": [
+        "备课耗时",
+        "业绩压力（部分）"
+      ],
+      "trial_plan_30d": "录 15 分钟试讲；大纲+测验题；联系试课",
+      "not_suitable_for": [
+        "公开表达极度恐惧",
+        "不愿持续备课"
+      ],
+      "common_entry_barriers": [
+        "试讲/教资或赛道资质（因地区政策）",
+        "领域知识"
+      ]
+    },
+    {
+      "id": "freelance_gigs",
+      "name": "自由职业接单",
+      "aliases": [
+        "外包",
+        "项目制"
+      ],
+      "category": "flexible",
+      "suitable_backgrounds": [
+        "已有可售卖技能与案例",
+        "能承受波动"
+      ],
+      "common_job_titles": [
+        "自由设计师",
+        "自由撰稿",
+        "外包开发等"
+      ],
+      "job_requirements": [
+        "案例",
+        "交付周期",
+        "沟通与合同意识"
+      ],
+      "core_skills": [
+        "专业交付",
+        "获客报价",
+        "回款管理"
+      ],
+      "transferable_skills": [
+        "本职技能直接外化"
+      ],
+      "skills_to_build": [
+        "个人品牌",
+        "合同验收",
+        "预期管理"
+      ],
+      "difficulty": 4,
+      "recommendation_score": 6,
+      "learning_cycle": "2～8 周跑通首单（有基础前提）",
+      "income_range": "波动极大",
+      "stability": "低",
+      "market_demand": "平台入门易高价难",
+      "side_hustle_friendly": true,
+      "pros": [
+        "时间相对自由"
+      ],
+      "cons": [
+        "社保自担",
+        "断档与议价压力"
+      ],
+      "trial_plan_30d": "1 平台+1 垂直服务+3 案例；每周固定投标/触达；最低时薪红线",
+      "not_suitable_for": [
+        "无作品且急需稳定月薪",
+        "不愿做商务催收"
+      ],
+      "common_entry_barriers": [
+        "可展示案例",
+        "平台注册与实名",
+        "能接商单沟通"
+      ]
+    },
+    {
+      "id": "self_media",
+      "name": "自媒体 / 内容创作",
+      "aliases": [
+        "博主",
+        "创作者",
+        "自媒体",
+        "短视频",
+        "图文账号"
+      ],
+      "category": "flexible",
+      "suitable_backgrounds": [
+        "愿持续输出",
+        "能接受长期低收入验证"
+      ],
+      "common_job_titles": [
+        "创作者（自营）"
+      ],
+      "job_requirements": [
+        "账号数据",
+        "垂类",
+        "合规"
+      ],
+      "core_skills": [
+        "选题",
+        "表达剪辑",
+        "互动与变现设计"
+      ],
+      "transferable_skills": [
+        "行业洞察",
+        "演讲",
+        "销售"
+      ],
+      "skills_to_build": [
+        "平台规则",
+        "变现产品基础"
+      ],
+      "difficulty": 4,
+      "recommendation_score": 5,
+      "learning_cycle": "3～6 个月见数据（不保证）",
+      "income_range": "新人常极低；分化极大",
+      "stability": "极低至变现前",
+      "market_demand": "不适用",
+      "side_hustle_friendly": true,
+      "pros": [
+        "杠杆高"
+      ],
+      "cons": [
+        "幸存者偏差",
+        "算法与政策风险"
+      ],
+      "trial_plan_30d": "1 垂类+更新频率承诺；12 条内容复盘；勿先辞职 all in",
+      "not_suitable_for": [
+        "急需稳定现金",
+        "无法接受曝光迭代"
+      ],
+      "common_entry_barriers": [
+        "实名与账号合规",
+        "持续产出能力",
+        "能接受前期低收入"
+      ]
+    },
+    {
+      "id": "ecommerce_resell",
+      "name": "电商 / 淘宝拼多多 / 网店",
+      "aliases": [
+        "轻创业",
+        "一件代发",
+        "淘宝",
+        "拼多多",
+        "网店运营"
+      ],
+      "category": "flexible",
+      "suitable_backgrounds": [
+        "愿研究选品与规则",
+        "能接受售后"
+      ],
+      "common_job_titles": [
+        "店群运营（合规前提）",
+        "店铺运营助理"
+      ],
+      "job_requirements": [
+        "上架",
+        "优化",
+        "活动与 ROI 意识"
+      ],
+      "core_skills": [
+        "选品",
+        "基础数据",
+        "供应链与售后"
+      ],
+      "transferable_skills": [
+        "运营",
+        "采购",
+        "客服"
+      ],
+      "skills_to_build": [
+        "平台规则",
+        "竞品分析",
+        "基础投流或自然流"
+      ],
+      "difficulty": 3,
+      "recommendation_score": 6,
+      "learning_cycle": "1～3 个月",
+      "income_range": "兼职几百～几千常见；全职波动大",
+      "stability": "低到中",
+      "market_demand": "运营助理岗较多",
+      "side_hustle_friendly": true,
+      "pros": [
+        "可并行求职",
+        "轻资产试水"
+      ],
+      "cons": [
+        "售后",
+        "罚款与库存风险"
+      ],
+      "trial_plan_30d": "1 细分品类+10 竞品拆解；最小闭环再放量",
+      "not_suitable_for": [
+        "不愿处理售后与规则",
+        "追求暴利速成"
+      ],
+      "common_entry_barriers": [
+        "店铺/个体资质（视平台）",
+        "保证金与规则学习"
+      ]
+    },
+    {
+      "id": "consulting_advisor",
+      "name": "咨询 / 顾问",
+      "aliases": [
+        "独立顾问",
+        "轻咨询"
+      ],
+      "category": "flexible",
+      "suitable_backgrounds": [
+        "细分领域有可证明经验与案例"
+      ],
+      "common_job_titles": [
+        "独立顾问",
+        "兼职专家"
+      ],
+      "job_requirements": [
+        "案例",
+        "方法论",
+        "客户背书"
+      ],
+      "core_skills": [
+        "结构化输出",
+        "访谈",
+        "提案交付"
+      ],
+      "transferable_skills": [
+        "多年行业",
+        "内训",
+        "售前实施"
+      ],
+      "skills_to_build": [
+        "报价合同",
+        "交付边界",
+        "获客"
+      ],
+      "difficulty": 5,
+      "recommendation_score": 5,
+      "learning_cycle": "1～2 个月包装案例",
+      "income_range": "按项目/日费，差异极大",
+      "stability": "低到中",
+      "market_demand": "全职岗少",
+      "side_hustle_friendly": true,
+      "pros": [
+        "单价潜力"
+      ],
+      "cons": [
+        "获客周期长",
+        "回款风险"
+      ],
+      "trial_plan_30d": "3 个案例页；5 次限时诊断；明确不接范围",
+      "not_suitable_for": [
+        "无案例却期望速成高收入"
+      ],
+      "common_entry_barriers": [
+        "可证明案例",
+        "获客渠道",
+        "合同与交付边界"
+      ]
+    },
+    {
+      "id": "small_business",
+      "name": "小生意 / 个体经营",
+      "aliases": [
+        "个体户",
+        "小店",
+        "摊位",
+        "个体经营",
+        "小微门店"
+      ],
+      "category": "flexible",
+      "suitable_backgrounds": [
+        "有本金与心理承受力",
+        "愿合规算账"
+      ],
+      "common_job_titles": [
+        "店主（自营）"
+      ],
+      "job_requirements": [
+        "选址办证",
+        "食安消防",
+        "供应链"
+      ],
+      "core_skills": [
+        "成本控制",
+        "现金流",
+        "人员与客诉"
+      ],
+      "transferable_skills": [
+        "运营",
+        "销售",
+        "供应链经验"
+      ],
+      "skills_to_build": [
+        "本地政策",
+        "财税基础",
+        "合同供应商"
+      ],
+      "difficulty": 5,
+      "recommendation_score": 4,
+      "learning_cycle": "3～6 个月跑通模型（因业态而异）",
+      "income_range": "亏损到盈利分布极宽",
+      "stability": "中低",
+      "market_demand": "不适用",
+      "side_hustle_friendly": true,
+      "pros": [
+        "自主性强"
+      ],
+      "cons": [
+        "亏损负债风险",
+        "强度大"
+      ],
+      "trial_plan_30d": "最小成本验证（预售/小批量/夜市合法试跑）；固定成本与回本表；慎借贷重资产",
+      "not_suitable_for": [
+        "零本金且急需稳定收入",
+        "无法接受监管琐碎"
+      ],
+      "common_entry_barriers": [
+        "启动资金与证照",
+        "选址与食安/消防（视业态）",
+        "能承担亏损"
+      ]
+    },
+    {
+      "id": "ride_hailing_driver",
+      "name": "网约车司机",
+      "aliases": [
+        "滴滴",
+        "高德打车",
+        "顺风车（合规前提下）"
+      ],
+      "category": "platform",
+      "suitable_backgrounds": [
+        "持有效驾照",
+        "本地路熟",
+        "能接受久坐与夜间单"
+      ],
+      "common_entry_barriers": [
+        "C1/C2 及以上驾照满当地规定年限",
+        "无重大交通违法记录",
+        "车辆合规或租车方案",
+        "平台注册与背景审核",
+        "部分地区需人证/车证"
+      ],
+      "common_job_titles": [
+        "网约车司机",
+        "平台加盟司机"
+      ],
+      "job_requirements": [
+        "按平台完成注册培训",
+        "车辆保险与年检",
+        "服务分与接单时长"
+      ],
+      "core_skills": [
+        "安全驾驶",
+        "路线规划",
+        "服务沟通",
+        "情绪管理"
+      ],
+      "transferable_skills": [
+        "任何服务业沟通",
+        "销售意识（好评）"
+      ],
+      "skills_to_build": [
+        "平台规则",
+        "高峰调度",
+        "成本油费核算"
+      ],
+      "difficulty": 2,
+      "recommendation_score": 7,
+      "learning_cycle": "1～3 周（注册到接单）",
+      "income_range": "多劳多得；一线城市全职常见约 6k～15k/月不等，波动极大，油费车租需扣除",
+      "stability": "低到中；随订单与政策波动",
+      "market_demand": "订单密度与城市相关",
+      "side_hustle_friendly": true,
+      "pros": [
+        "上线快",
+        "时间相对自由",
+        "现金流按周/日可见"
+      ],
+      "cons": [
+        "车损油费",
+        "久坐与健康",
+        "平台抽成与罚款规则"
+      ],
+      "trial_plan_30d": "先算固定成本（租车/油费/保险）；跑满 2 周高峰样本再决定是否全职；记录时薪净收入",
+      "not_suitable_for": [
+        "驾照不符或路况恐惧",
+        "无法接受服务评价压力",
+        "急需五险一金全额单位缴纳者"
+      ]
+    },
+    {
+      "id": "food_delivery_rider",
+      "name": "外卖骑手",
+      "aliases": [
+        "美团",
+        "饿了么",
+        "众包"
+      ],
+      "category": "platform",
+      "suitable_backgrounds": [
+        "身体好",
+        "能扛高峰",
+        "目标明确为多劳多得"
+      ],
+      "common_entry_barriers": [
+        "电动车合规（部分城市牌照）",
+        "健康证（部分站点）",
+        "平台实名与装备",
+        "能忍受恶劣天气"
+      ],
+      "common_job_titles": [
+        "专送骑手",
+        "众包骑手"
+      ],
+      "job_requirements": [
+        "站点规则培训",
+        "配送时效",
+        "安全培训"
+      ],
+      "core_skills": [
+        "路线与电梯策略",
+        "抗压",
+        "简单沟通"
+      ],
+      "transferable_skills": [
+        "服务业节奏",
+        "地图导航习惯"
+      ],
+      "skills_to_build": [
+        "商圈熟悉度",
+        "多单路径优化"
+      ],
+      "difficulty": 2,
+      "recommendation_score": 8,
+      "learning_cycle": "数天～1 周可接单",
+      "income_range": "众包波动大；全职常见约 5k～12k/月（城市/站点差异极大）",
+      "stability": "低；事故与罚款风险",
+      "market_demand": "需求普遍",
+      "side_hustle_friendly": true,
+      "pros": [
+        "入职快",
+        "现金回流快"
+      ],
+      "cons": [
+        "体力消耗大",
+        "交通事故与安全风险",
+        "投诉罚款"
+      ],
+      "trial_plan_30d": "先众包试跑 10 天记录单量与时薪；再决定是否专送；买齐保险",
+      "not_suitable_for": [
+        "身体条件不适合高强度骑行",
+        "无法接受户外与冲突"
+      ]
+    },
+    {
+      "id": "same_city_courier",
+      "name": "同城配送 / 跑腿",
+      "aliases": [
+        "闪送",
+        "UU跑腿",
+        "同城急送"
+      ],
+      "category": "platform",
+      "suitable_backgrounds": [
+        "熟悉本地",
+        "会用导航",
+        "能接受抢单模式"
+      ],
+      "common_entry_barriers": [
+        "两轮/四轮合规",
+        "平台保证金",
+        "实名认证",
+        "部分要求装备"
+      ],
+      "common_job_titles": [
+        "同城骑手",
+        "跑腿员"
+      ],
+      "job_requirements": [
+        "时效",
+        "货损责任认知",
+        "客户沟通"
+      ],
+      "core_skills": [
+        "路径规划",
+        "物品交接",
+        "异常处理"
+      ],
+      "transferable_skills": [
+        "外卖/快递经验可迁移"
+      ],
+      "skills_to_build": [
+        "高价单筛选",
+        "合同与保价意识"
+      ],
+      "difficulty": 2,
+      "recommendation_score": 7,
+      "learning_cycle": "数天～2 周",
+      "income_range": "按单计件，约 4k～10k+/月不等，波动大",
+      "stability": "低",
+      "market_demand": "一二线城市机会更多",
+      "side_hustle_friendly": true,
+      "pros": [
+        "相对自由",
+        "可兼职"
+      ],
+      "cons": [
+        "单量不稳定",
+        "纠纷与货损风险"
+      ],
+      "trial_plan_30d": "试跑 2 周记录高峰单价；避开高风险单；算净收入",
+      "not_suitable_for": [
+        "路痴严重",
+        "无法处理纠纷"
+      ]
+    },
+    {
+      "id": "express_courier",
+      "name": "快递员",
+      "aliases": [
+        "快递站点",
+        "派送员"
+      ],
+      "category": "platform",
+      "suitable_backgrounds": [
+        "能吃苦",
+        "有体力",
+        "愿意固定片区"
+      ],
+      "common_entry_barriers": [
+        "站点入职或加盟规则",
+        "三轮车/电动车合规",
+        "部分要求自带车"
+      ],
+      "common_job_titles": [
+        "快递员",
+        "派件员",
+        "驿站店员"
+      ],
+      "job_requirements": [
+        "派件时效",
+        "投诉处理",
+        "揽件指标（部分）"
+      ],
+      "core_skills": [
+        "片区记忆",
+        "沟通",
+        "体力分配"
+      ],
+      "transferable_skills": [
+        "仓配、理货经验"
+      ],
+      "skills_to_build": [
+        "驿站与自提规则",
+        "电商退货流程"
+      ],
+      "difficulty": 2,
+      "recommendation_score": 7,
+      "learning_cycle": "1～2 周跟岗",
+      "income_range": "计件为主，约 5k～12k/月（片区与品牌差异大）",
+      "stability": "中低；双11等季节波动",
+      "market_demand": "稳定存在",
+      "side_hustle_friendly": false,
+      "pros": [
+        "需求稳",
+        "路径清晰"
+      ],
+      "cons": [
+        "体力负荷",
+        "罚款与投诉压力"
+      ],
+      "trial_plan_30d": "跟老业务员跑 1 周片区；记录日均件量与净收入",
+      "not_suitable_for": [
+        "身体条件不适合搬运爬楼",
+        "排斥重复体力"
+      ]
+    },
+    {
+      "id": "freight_driver",
+      "name": "货运司机 / 货拉拉",
+      "aliases": [
+        "同城货运",
+        "搬家辅助（合规）"
+      ],
+      "category": "platform",
+      "suitable_backgrounds": [
+        "持货车驾照",
+        "熟悉装卸协作",
+        "能接受平台规则"
+      ],
+      "common_entry_barriers": [
+        "B2/C1+货运车辆视车型",
+        "营运证与车辆合规（各地不同）",
+        "平台保证金",
+        "无重大事故记录"
+      ],
+      "common_job_titles": [
+        "货运司机",
+        "平台加盟货运"
+      ],
+      "job_requirements": [
+        "装卸协助（部分单）",
+        "服务评价",
+        "路线与油费控制"
+      ],
+      "core_skills": [
+        "安全驾驶",
+        "货物固定",
+        "客户沟通"
+      ],
+      "transferable_skills": [
+        "物流、仓管经验"
+      ],
+      "skills_to_build": [
+        "平台计价规则",
+        "搬运工具使用"
+      ],
+      "difficulty": 3,
+      "recommendation_score": 6,
+      "learning_cycle": "2～4 周（含车辆与证件）",
+      "income_range": "波动大；扣除油费车损后净收入需个案核算",
+      "stability": "低到中",
+      "market_demand": "与城市建设与搬家需求相关",
+      "side_hustle_friendly": true,
+      "pros": [
+        "客单价相对配送更高（视车型）"
+      ],
+      "cons": [
+        "车辆折旧",
+        "违章与货损纠纷",
+        "体力"
+      ],
+      "trial_plan_30d": "先短租合规车辆试跑 2 周；记净收入与纠纷率",
+      "not_suitable_for": [
+        "驾照车型不符",
+        "无法承担车辆风险"
+      ]
+    },
+    {
+      "id": "warehouse_packing_sorting",
+      "name": "电商打包 / 仓库 / 分拣",
+      "aliases": [
+        "仓管助理",
+        "分拣员",
+        "打包员"
+      ],
+      "category": "employment",
+      "suitable_backgrounds": [
+        "能接受站立与重复",
+        "细心",
+        "需快速现金流"
+      ],
+      "common_entry_barriers": [
+        "部分要求经验不限",
+        "健康与体力",
+        "倒班与夜班",
+        "部分物流园偏远"
+      ],
+      "common_job_titles": [
+        "仓库操作工",
+        "分拣员",
+        "打包员",
+        "理货员"
+      ],
+      "job_requirements": [
+        "速度与准确率",
+        "安全规范",
+        "加班（旺季）"
+      ],
+      "core_skills": [
+        "扫码与核对",
+        "简单系统",
+        "体力"
+      ],
+      "transferable_skills": [
+        "工厂、质检、快递经验"
+      ],
+      "skills_to_build": [
+        "WMS 基础",
+        "盘点流程"
+      ],
+      "difficulty": 2,
+      "recommendation_score": 8,
+      "learning_cycle": "几天～2 周",
+      "income_range": "约 4k～9k/月；旺季加班可能更高",
+      "stability": "中；旺季加班多",
+      "market_demand": "电商物流区需求大",
+      "side_hustle_friendly": false,
+      "pros": [
+        "门槛低",
+        "到岗快",
+        "可过渡"
+      ],
+      "cons": [
+        "体力与重复",
+        "夜班与通勤"
+      ],
+      "trial_plan_30d": "本地物流园/电商仓投递；试工 3 天评估体力与班次",
+      "not_suitable_for": [
+        "身体条件不适合久站搬运",
+        "完全无法夜班"
+      ]
+    },
+    {
+      "id": "designated_driver",
+      "name": "代驾",
+      "aliases": [
+        "e代驾",
+        "滴滴代驾"
+      ],
+      "category": "platform",
+      "suitable_backgrounds": [
+        "手动挡自动挡熟练",
+        "能熬夜",
+        "服务意识"
+      ],
+      "common_entry_barriers": [
+        "驾照年限与记录",
+        "平台考试与装备",
+        "无重大事故",
+        "部分地区夜间单为主"
+      ],
+      "common_job_titles": [
+        "代驾司机"
+      ],
+      "job_requirements": [
+        "夜间接单",
+        "服务规范",
+        "纠纷处理"
+      ],
+      "core_skills": [
+        "熟练驾驶各车型",
+        "情绪稳定",
+        "路线"
+      ],
+      "transferable_skills": [
+        "网约车经验可部分迁移"
+      ],
+      "skills_to_build": [
+        "高端车型适应",
+        "酒后代驾沟通"
+      ],
+      "difficulty": 3,
+      "recommendation_score": 6,
+      "learning_cycle": "1～3 周",
+      "income_range": "夜间集中；约 4k～12k/月不等，波动大",
+      "stability": "低",
+      "market_demand": "与夜间餐饮城市相关",
+      "side_hustle_friendly": true,
+      "pros": [
+        "可兼职",
+        "无车或低车损模式（视平台）"
+      ],
+      "cons": [
+        "熬夜与健康",
+        "纠纷与事故风险"
+      ],
+      "trial_plan_30d": "先兼职夜间 2 周；记录有效时薪与安全事件",
+      "not_suitable_for": [
+        "驾驶技术不自信",
+        "不能接受夜间"
+      ]
+    },
+    {
+      "id": "waiter_server",
+      "name": "服务员",
+      "aliases": [
+        "餐饮服务员",
+        "传菜"
+      ],
+      "category": "service",
+      "suitable_backgrounds": [
+        "能接受体力与班次",
+        "服务意识",
+        "快速到岗"
+      ],
+      "common_entry_barriers": [
+        "健康证（餐饮）",
+        "年龄与形象（部分店）",
+        "节假日周末忙"
+      ],
+      "common_job_titles": [
+        "服务员",
+        "传菜员",
+        "前厅"
+      ],
+      "job_requirements": [
+        "点单与上菜流程",
+        "卫生标准",
+        "客诉初处理"
+      ],
+      "core_skills": [
+        "多任务",
+        "沟通",
+        "抗压"
+      ],
+      "transferable_skills": [
+        "零售、任何一线服务"
+      ],
+      "skills_to_build": [
+        "收银系统",
+        "酒水知识（视店）"
+      ],
+      "difficulty": 2,
+      "recommendation_score": 8,
+      "learning_cycle": "几天～2 周",
+      "income_range": "约 3.5k～7k/月+绩效/提成（城市差异大）",
+      "stability": "中；流动性高易再就业",
+      "market_demand": "高",
+      "side_hustle_friendly": true,
+      "pros": [
+        "门槛低",
+        "需求广"
+      ],
+      "cons": [
+        "体力与站立",
+        "节假日忙",
+        "情绪劳动"
+      ],
+      "trial_plan_30d": "同城餐饮集中区试工 3 家；比较班次与包吃住政策",
+      "not_suitable_for": [
+        "严重洁癖或无法接受餐饮环境",
+        "排斥服务姿态"
+      ]
+    },
+    {
+      "id": "retail_clerk",
+      "name": "店员 / 营业员",
+      "aliases": [
+        "超市理货",
+        "便利店店员"
+      ],
+      "category": "service",
+      "suitable_backgrounds": [
+        "细心",
+        "能接受排班",
+        "稳定到岗"
+      ],
+      "common_entry_barriers": [
+        "部分要求收银经验",
+        "夜班（便利店）",
+        "站立时长"
+      ],
+      "common_job_titles": [
+        "店员",
+        "营业员",
+        "理货员"
+      ],
+      "job_requirements": [
+        "陈列与盘点",
+        "收银防损",
+        "防盗意识"
+      ],
+      "core_skills": [
+        "责任心",
+        "简单系统",
+        "沟通"
+      ],
+      "transferable_skills": [
+        "仓管、收银、服务业"
+      ],
+      "skills_to_build": [
+        "进销存基础",
+        "会员拉新（视店）"
+      ],
+      "difficulty": 2,
+      "recommendation_score": 8,
+      "learning_cycle": "1～2 周",
+      "income_range": "约 3.5k～7k/月",
+      "stability": "中",
+      "market_demand": "高",
+      "side_hustle_friendly": true,
+      "pros": [
+        "岗位多",
+        "可转店长路径"
+      ],
+      "cons": [
+        "重复与站立",
+        "防损压力"
+      ],
+      "trial_plan_30d": "连锁便利店/超市投递；试工记录班次与强度",
+      "not_suitable_for": [
+        "无法夜班（若投便利店）",
+        "排斥防损规则"
+      ]
+    },
+    {
+      "id": "retail_sales",
+      "name": "门店销售",
+      "aliases": [
+        "导购",
+        "专柜销售"
+      ],
+      "category": "service",
+      "suitable_backgrounds": [
+        "愿意做销售",
+        "形象与表达尚可",
+        "能接受提成结构"
+      ],
+      "common_entry_barriers": [
+        "部分品类要求经验",
+        "站班与周末班",
+        "业绩压力"
+      ],
+      "common_job_titles": [
+        "导购",
+        "零售顾问",
+        "店员销售"
+      ],
+      "job_requirements": [
+        "接待与逼单",
+        "陈列协助",
+        "会员与复购"
+      ],
+      "core_skills": [
+        "沟通",
+        "观察需求",
+        "抗拒绝"
+      ],
+      "transferable_skills": [
+        "任何面对面销售",
+        "客服外呼"
+      ],
+      "skills_to_build": [
+        "产品知识",
+        "连带销售"
+      ],
+      "difficulty": 2,
+      "recommendation_score": 7,
+      "learning_cycle": "2～4 周培训上岗",
+      "income_range": "底薪+提成，约 4k～12k+/月波动",
+      "stability": "中低；与商场与品牌相关",
+      "market_demand": "中高",
+      "side_hustle_friendly": false,
+      "pros": [
+        "锻炼销售能力",
+        "收入有上限空间"
+      ],
+      "cons": [
+        "站班与业绩",
+        "情绪劳动"
+      ],
+      "trial_plan_30d": "选 1 个品类深耕话术；记录转化与客单",
+      "not_suitable_for": [
+        "完全抗拒销售与站班",
+        "无法接受提成波动"
+      ]
+    },
+    {
+      "id": "real_estate_agent",
+      "name": "房产中介",
+      "aliases": [
+        "置业顾问",
+        "租赁经纪人"
+      ],
+      "category": "service",
+      "suitable_backgrounds": [
+        "外向",
+        "能承受长周期与拒绝",
+        "愿跑盘"
+      ],
+      "common_entry_barriers": [
+        "执业资格或备案（各地不同）",
+        "无底薪或低底薪+提成",
+        "前几个月难开单"
+      ],
+      "common_job_titles": [
+        "房产经纪人",
+        "租赁顾问"
+      ],
+      "job_requirements": [
+        "带看",
+        "合同与税费基础",
+        "客源开发"
+      ],
+      "core_skills": [
+        "信任建立",
+        "谈判",
+        "信息整理"
+      ],
+      "transferable_skills": [
+        "销售",
+        "客服",
+        "任何地推"
+      ],
+      "skills_to_build": [
+        "本地政策与贷款基础",
+        "平台与私域获客"
+      ],
+      "difficulty": 3,
+      "recommendation_score": 6,
+      "learning_cycle": "3～6 个月见首单（个案）",
+      "income_range": "分化极大；0～数万/月均可能，前期低收入常见",
+      "stability": "低",
+      "market_demand": "与楼市周期强相关",
+      "side_hustle_friendly": false,
+      "pros": [
+        "成交单笔高潜力",
+        "锻炼综合销售"
+      ],
+      "cons": [
+        "周期长",
+        "政策与市场风险",
+        "加班带看"
+      ],
+      "trial_plan_30d": "跟老经纪人跑盘 20 次；先专注租赁单练流程；设生存现金流底线",
+      "not_suitable_for": [
+        "急需稳定底薪",
+        "排斥长周期销售"
+      ]
+    },
+    {
+      "id": "insurance_sales",
+      "name": "保险销售",
+      "aliases": [
+        "保险代理人",
+        "经纪人（合规）"
+      ],
+      "category": "service",
+      "suitable_backgrounds": [
+        "人脉或可冷启动获客",
+        "能接受合规培训与考试"
+      ],
+      "common_entry_barriers": [
+        "执业资格考试与登记（依监管）",
+        "初期收入不稳定",
+        "合规展业要求"
+      ],
+      "common_job_titles": [
+        "保险顾问",
+        "代理人"
+      ],
+      "job_requirements": [
+        "客户经营",
+        "方案讲解",
+        "续保与服务"
+      ],
+      "core_skills": [
+        "信任",
+        "长期关系",
+        "条款理解"
+      ],
+      "transferable_skills": [
+        "面销",
+        "培训",
+        "任何顾问型岗位"
+      ],
+      "skills_to_build": [
+        "产品对比",
+        "合规话术"
+      ],
+      "difficulty": 4,
+      "recommendation_score": 5,
+      "learning_cycle": "2～3 个月考证+跟单",
+      "income_range": "佣金制，前低后分化大",
+      "stability": "低",
+      "market_demand": "依赖个人拓客",
+      "side_hustle_friendly": true,
+      "pros": [
+        "复利客户关系",
+        "时间相对自由（成熟后）"
+      ],
+      "cons": [
+        "初期极难",
+        "口碑与合规风险",
+        "拒绝率高"
+      ],
+      "trial_plan_30d": "先完成合规学习与考试；只做缘故清单不夸大；设止损月份",
+      "not_suitable_for": [
+        "厌恶推销与长期经营",
+        "急需稳定月薪"
+      ]
+    },
+    {
+      "id": "security_property",
+      "name": "保安 / 物业",
+      "aliases": [
+        "秩序员",
+        "门卫",
+        "物业客服（基层）"
+      ],
+      "category": "service",
+      "suitable_backgrounds": [
+        "能接受倒班",
+        "责任心",
+        "求稳过渡"
+      ],
+      "common_entry_barriers": [
+        "身高年龄（部分项目）",
+        "无犯罪记录",
+        "保安证（部分城市）",
+        "体检"
+      ],
+      "common_job_titles": [
+        "保安员",
+        "秩序维护员",
+        "物业巡逻"
+      ],
+      "job_requirements": [
+        "巡逻与登记",
+        "消防基础",
+        "突发事件上报"
+      ],
+      "core_skills": [
+        "纪律",
+        "观察",
+        "沟通克制"
+      ],
+      "transferable_skills": [
+        "退伍军人",
+        "工厂纪律岗位"
+      ],
+      "skills_to_build": [
+        "物业系统",
+        "业主沟通"
+      ],
+      "difficulty": 2,
+      "recommendation_score": 7,
+      "learning_cycle": "1～3 周",
+      "income_range": "约 3.5k～6.5k/月（城市与项目差异）",
+      "stability": "中",
+      "market_demand": "稳定",
+      "side_hustle_friendly": false,
+      "pros": [
+        "门槛低",
+        "包吃住项目存在"
+      ],
+      "cons": [
+        "倒班与枯燥",
+        "冲突风险",
+        "天花板低"
+      ],
+      "trial_plan_30d": "本地物业公司/保安公司应聘；问清班次与保险",
+      "not_suitable_for": [
+        "无法接受倒班",
+        "易冲动冲突者"
+      ]
+    },
+    {
+      "id": "cleaning_housekeeping",
+      "name": "保洁 / 家政",
+      "aliases": [
+        "家庭保洁",
+        "钟点工"
+      ],
+      "category": "service",
+      "suitable_backgrounds": [
+        "细致",
+        "体力可承受",
+        "愿意服务入户"
+      ],
+      "common_entry_barriers": [
+        "平台培训与健康证（部分）",
+        "工具押金",
+        "客户投诉与差评"
+      ],
+      "common_job_titles": [
+        "保洁员",
+        "家政服务员"
+      ],
+      "job_requirements": [
+        "服务流程",
+        "消毒与安全",
+        "时间窗"
+      ],
+      "core_skills": [
+        "效率",
+        "细节",
+        "沟通边界"
+      ],
+      "transferable_skills": [
+        "酒店客房",
+        "物业保洁"
+      ],
+      "skills_to_build": [
+        "深度保洁与收纳升级课",
+        "家电清洗（增值）"
+      ],
+      "difficulty": 2,
+      "recommendation_score": 7,
+      "learning_cycle": "1～2 周培训上岗",
+      "income_range": "按单或月薪约 4k～9k/月；平台抽成需扣除",
+      "stability": "中低",
+      "market_demand": "一二线城市需求大",
+      "side_hustle_friendly": true,
+      "pros": [
+        "需求稳",
+        "可兼职"
+      ],
+      "cons": [
+        "体力",
+        "入户纠纷与差评",
+        "平台规则"
+      ],
+      "trial_plan_30d": "平台注册接小单；记录单均时长与净收入；买意外险",
+      "not_suitable_for": [
+        "排斥入户服务",
+        "无法接受体力活"
+      ]
+    },
+    {
+      "id": "organizing_service",
+      "name": "收纳整理",
+      "aliases": [
+        "整理师"
+      ],
+      "category": "service",
+      "suitable_backgrounds": [
+        "空间感好",
+        "耐心",
+        "愿做服务+培训组合"
+      ],
+      "common_entry_barriers": [
+        "课程证书（市场混杂需甄别）",
+        "获客与口碑",
+        "体力"
+      ],
+      "common_job_titles": [
+        "整理师",
+        "收纳顾问"
+      ],
+      "job_requirements": [
+        "上门测量与方案",
+        "客户沟通",
+        "拍照案例"
+      ],
+      "core_skills": [
+        "分类与动线",
+        "销售二次转化",
+        "摄影呈现"
+      ],
+      "transferable_skills": [
+        "设计",
+        "家政升级",
+        "电商陈列"
+      ],
+      "skills_to_build": [
+        "标准服务流程",
+        "合同与报价"
+      ],
+      "difficulty": 3,
+      "recommendation_score": 5,
+      "learning_cycle": "1～3 个月（含练手）",
+      "income_range": "按项目；成熟后差异大，新手低单量常见",
+      "stability": "低到中",
+      "market_demand": "一线城市相对更好",
+      "side_hustle_friendly": true,
+      "pros": [
+        "客单价潜力",
+        "可结合内容获客"
+      ],
+      "cons": [
+        "获客难",
+        "培训市场良莠不齐"
+      ],
+      "trial_plan_30d": "跟单 3 次；做 2 个对比案例；定价低于市场价练手",
+      "not_suitable_for": [
+        "无案例却高收费预期",
+        "排斥上门"
+      ]
+    },
+    {
+      "id": "nanny_caregiver",
+      "name": "月嫂 / 护工",
+      "aliases": [
+        "育儿嫂",
+        "医院护工"
+      ],
+      "category": "service",
+      "suitable_backgrounds": [
+        "有耐心与责任心",
+        "能承受住家或夜班",
+        "愿考证"
+      ],
+      "common_entry_barriers": [
+        "健康与背景审核",
+        "培训与证书（月嫂/育婴）",
+        "心理与伦理压力"
+      ],
+      "common_job_titles": [
+        "月嫂",
+        "育婴师",
+        "护工"
+      ],
+      "job_requirements": [
+        "母婴/老人护理流程",
+        "记录与交接",
+        "客户沟通"
+      ],
+      "core_skills": [
+        "护理技能",
+        "观察与应急上报",
+        "情绪稳定"
+      ],
+      "transferable_skills": [
+        "护士助理",
+        "幼教经验"
+      ],
+      "skills_to_build": [
+        "正规机构培训",
+        "急救基础"
+      ],
+      "difficulty": 4,
+      "recommendation_score": 6,
+      "learning_cycle": "1～3 个月培训+实习",
+      "income_range": "月嫂旺季较高但波动；护工按天/月约 4k～12k+不等",
+      "stability": "中；订单与季节波动",
+      "market_demand": "刚需存在",
+      "side_hustle_friendly": false,
+      "pros": [
+        "技能溢价可能高于普通服务岗"
+      ],
+      "cons": [
+        "身心负荷大",
+        "纠纷与责任风险",
+        "住家边界"
+      ],
+      "trial_plan_30d": "选合规机构培训；实习跟单；不接超出能力范围的单",
+      "not_suitable_for": [
+        "无耐心与爱心",
+        "无法接受住家或夜班"
+      ]
+    },
+    {
+      "id": "private_tutor",
+      "name": "家教 / 学科或技能辅导",
+      "aliases": [
+        "上门家教",
+        "陪读"
+      ],
+      "category": "service",
+      "suitable_backgrounds": [
+        "某学科或考试体系能讲清楚",
+        "有耐心",
+        "时间可固定"
+      ],
+      "common_entry_barriers": [
+        "教资或机构要求（因地区政策）",
+        "试讲",
+        "安全与合规（上门）"
+      ],
+      "common_job_titles": [
+        "家教老师",
+        "陪练老师"
+      ],
+      "job_requirements": [
+        "教学计划",
+        "作业反馈",
+        "家长沟通"
+      ],
+      "core_skills": [
+        "讲解",
+        "题库",
+        "情绪引导"
+      ],
+      "transferable_skills": [
+        "机构老师",
+        "内训",
+        "翻译"
+      ],
+      "skills_to_build": [
+        "考纲更新",
+        "试听转化"
+      ],
+      "difficulty": 3,
+      "recommendation_score": 7,
+      "learning_cycle": "2～6 周可接小单",
+      "income_range": "按小时 50～300+ 不等；因城市与科目差异大",
+      "stability": "中低；学员续费波动",
+      "market_demand": "因城市与科目而异",
+      "side_hustle_friendly": true,
+      "pros": [
+        "现金流相对快",
+        "可计时"
+      ],
+      "cons": [
+        "备课耗时",
+        "晚间周末",
+        "家长沟通压力"
+      ],
+      "trial_plan_30d": "做 3 次试讲录像；同城社群或平台接低价试课积累评价",
+      "not_suitable_for": [
+        "学科能力不足却硬接",
+        "无法接受评价与退费纠纷"
+      ]
+    },
+    {
+      "id": "idle_fish_resell",
+      "name": "闲鱼 / 二手倒卖",
+      "aliases": [
+        "闲置转卖",
+        "低买高卖（合规）"
+      ],
+      "category": "flexible",
+      "suitable_backgrounds": [
+        "会看品与价",
+        "能接受琐碎沟通",
+        "小额试错"
+      ],
+      "common_entry_barriers": [
+        "平台规则与信用分",
+        "货源真伪与售后",
+        "时间打包发货"
+      ],
+      "common_job_titles": [
+        "个人卖家",
+        "副业店主"
+      ],
+      "job_requirements": [
+        "标题与图片",
+        "发货时效",
+        "纠纷举证"
+      ],
+      "core_skills": [
+        "选品",
+        "定价",
+        "客服"
+      ],
+      "transferable_skills": [
+        "线下摆摊",
+        "任何销售"
+      ],
+      "skills_to_build": [
+        "垂直品类知识",
+        "批量上架工具"
+      ],
+      "difficulty": 2,
+      "recommendation_score": 6,
+      "learning_cycle": "1～4 周出首单利润模型",
+      "income_range": "几百～几千/月常见；做大需规模与资金",
+      "stability": "低",
+      "market_demand": "依赖品类",
+      "side_hustle_friendly": true,
+      "pros": [
+        "启动极低",
+        "可验证快"
+      ],
+      "cons": [
+        "平台处罚",
+        "假货与扯皮",
+        "时薪不一定高"
+      ],
+      "trial_plan_30d": "选 1 个垂直品类；30 笔小单跑通差评率与利润率",
+      "not_suitable_for": [
+        "厌恶打包发货与客服",
+        "想暴利速成"
+      ]
+    },
+    {
+      "id": "community_commerce",
+      "name": "社群卖货 / 私域分销",
+      "aliases": [
+        "微信群团购",
+        "团长（合规）"
+      ],
+      "category": "flexible",
+      "suitable_backgrounds": [
+        "有信任人脉或线下场景",
+        "愿维护群",
+        "能接受售后"
+      ],
+      "common_entry_barriers": [
+        "货源与资质（食品尤其）",
+        "平台工具与分润规则",
+        "时间与情绪劳动"
+      ],
+      "common_job_titles": [
+        "团长",
+        "社群分销员"
+      ],
+      "job_requirements": [
+        "开团节奏",
+        "售后与赔付",
+        "合规宣传"
+      ],
+      "core_skills": [
+        "信任运营",
+        "选品",
+        "基础数据复盘"
+      ],
+      "transferable_skills": [
+        "销售",
+        "物业/门店客流",
+        "宝妈社群"
+      ],
+      "skills_to_build": [
+        "供应链与品控",
+        "私域工具"
+      ],
+      "difficulty": 3,
+      "recommendation_score": 6,
+      "learning_cycle": "1～2 个月验证复购",
+      "income_range": "几百～数千/月常见；分化大",
+      "stability": "低",
+      "market_demand": "依赖人脉与品类",
+      "side_hustle_friendly": true,
+      "pros": [
+        "离信任近",
+        "可结合线下"
+      ],
+      "cons": [
+        "伤人脉风险",
+        "品控与售后"
+      ],
+      "trial_plan_30d": "小样本开团 3 次；只选可控货源；记录毛利与纠纷率",
+      "not_suitable_for": [
+        "无人脉不愿拉群",
+        "无法接受售后扯皮"
+      ]
+    },
+    {
+      "id": "street_stall_snacks",
+      "name": "摆摊 / 小吃",
+      "aliases": [
+        "夜市摊位",
+        "早餐摊"
+      ],
+      "category": "flexible",
+      "suitable_backgrounds": [
+        "能起早贪黑",
+        "有简单手艺或愿学",
+        "小额本金"
+      ],
+      "common_entry_barriers": [
+        "城管与摊位合规（各地不同）",
+        "食安与卫生",
+        "天气与选址"
+      ],
+      "common_job_titles": [
+        "摊主"
+      ],
+      "job_requirements": [
+        "出摊收摊流程",
+        "原料与损耗控制",
+        "现金与收款码"
+      ],
+      "core_skills": [
+        "出品稳定",
+        "速度",
+        "算账"
+      ],
+      "transferable_skills": [
+        "餐饮后厨",
+        "销售"
+      ],
+      "skills_to_build": [
+        "配方标准化",
+        "供应链找货"
+      ],
+      "difficulty": 3,
+      "recommendation_score": 6,
+      "learning_cycle": "2～6 周试摊",
+      "income_range": "波动极大；雨天与选址影响显著",
+      "stability": "低",
+      "market_demand": "线下人流相关",
+      "side_hustle_friendly": true,
+      "pros": [
+        "启动可较小",
+        "现金流直观"
+      ],
+      "cons": [
+        "体力与早起",
+        "政策与驱赶风险",
+        "食品责任"
+      ],
+      "trial_plan_30d": "先跟摊学习 1 周；再小成本试摆 10 天；记每日净利",
+      "not_suitable_for": [
+        "无法接受户外与体力",
+        "不愿办健康证与合规"
+      ]
+    },
+    {
+      "id": "breakfast_milktea_shop",
+      "name": "早餐店 / 奶茶店（小微门店）",
+      "aliases": [
+        "加盟或自营饮品小吃"
+      ],
+      "category": "flexible",
+      "suitable_backgrounds": [
+        "有餐饮或服务经验",
+        "能承受长工时",
+        "有本金"
+      ],
+      "common_entry_barriers": [
+        "转让费与租金",
+        "加盟坑与合同",
+        "食品经营许可",
+        "品控与员工管理"
+      ],
+      "common_job_titles": [
+        "店主"
+      ],
+      "job_requirements": [
+        "出品标准化",
+        "早班准备",
+        "外卖平台规则"
+      ],
+      "core_skills": [
+        "成本控制",
+        "排班",
+        "客诉"
+      ],
+      "transferable_skills": [
+        "后厨",
+        "连锁门店经验"
+      ],
+      "skills_to_build": [
+        "菜单设计",
+        "外卖运营"
+      ],
+      "difficulty": 4,
+      "recommendation_score": 5,
+      "learning_cycle": "1～3 个月筹备",
+      "income_range": "亏损与微利常见；回本周期被低估",
+      "stability": "中低",
+      "market_demand": "红海多、看选址",
+      "side_hustle_friendly": false,
+      "pros": [
+        "需求日常",
+        "可做熟客"
+      ],
+      "cons": [
+        "加盟费与抽成",
+        "损耗与人力",
+        "竞争激烈"
+      ],
+      "trial_plan_30d": "先打工卧底同品类 2 周；再测算租金人工原料盈亏；慎付高额加盟",
+      "not_suitable_for": [
+        "零经验高负债开店",
+        "无法接受早班与体力"
+      ]
+    },
+    {
+      "id": "community_group_buying",
+      "name": "社区团购",
+      "aliases": [
+        "社区提货点",
+        "平台团长"
+      ],
+      "category": "flexible",
+      "suitable_backgrounds": [
+        "有社区门面或人缘",
+        "愿做分润与售后",
+        "时间灵活"
+      ],
+      "common_entry_barriers": [
+        "平台签约与押金",
+        "冷链与损耗（生鲜）",
+        "客诉与罚款"
+      ],
+      "common_job_titles": [
+        "团长",
+        "自提点"
+      ],
+      "job_requirements": [
+        "收货分拣",
+        "通知取货",
+        "售后登记"
+      ],
+      "core_skills": [
+        "邻里沟通",
+        "库存与损耗控制",
+        "基础数据"
+      ],
+      "transferable_skills": [
+        "小店",
+        "物业",
+        "宝妈群主"
+      ],
+      "skills_to_build": [
+        "选品与季节",
+        "私域复购"
+      ],
+      "difficulty": 2,
+      "recommendation_score": 6,
+      "learning_cycle": "2～4 周跑通",
+      "income_range": "分润制；常见为补充收入，全职难依赖",
+      "stability": "低到中",
+      "market_demand": "平台政策影响大",
+      "side_hustle_friendly": true,
+      "pros": [
+        "可结合现有店或车库",
+        "门槛低"
+      ],
+      "cons": [
+        "利润薄",
+        "平台规则变动",
+        "生鲜损耗"
+      ],
+      "trial_plan_30d": "选 1 个平台先跑小区域；记录分润与损耗；再决定是否加码",
+      "not_suitable_for": [
+        "无提货空间与邻里信任",
+        "无法接受售后"
+      ]
+    }
+  ]
+}

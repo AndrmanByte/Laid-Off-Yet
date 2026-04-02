@@ -1,4 +1,4 @@
-﻿# Release Notes v0.1
+# Release Notes v0.1
 
 ## 中文版
 
@@ -8,7 +8,7 @@ v0.1 - 裁了吗（首个公开版本）
 
 ### 项目简介
 
-`裁了吗` 是一个面向中国程序员的开源 Agent Skill 仓库。  
+`裁了吗` 是一个面向中国职场人的开源 Agent Skill 仓库。  
 它不是网站或 SaaS，而是可被 Agent 调用的 Markdown 决策与行动技能。
 
 ### 当前版本包含的功能
@@ -49,7 +49,7 @@ v0.1 - 裁了吗（首个公开版本）
 
 ### 项目定位
 
-面向中国程序员职业危机阶段的 Agent Skill，强调“先稳住，再判断，再行动”。
+面向遭遇裁员与职业危机的职场人，强调“先稳住，再判断，再行动”（不限定行业与岗位）。
 
 ---
 
@@ -61,7 +61,7 @@ v0.1 - Laid Off Yet\? (Initial Public Release)
 
 ### Project Summary
 
-`裁了吗` (Laid Off Yet?) is an open-source Chinese Agent Skill repository for software engineers facing career disruption.  
+`裁了吗` (Laid Off Yet?) is an open-source Chinese Agent Skill repository for workers facing layoffs or career disruption.  
 It is not a web app or SaaS, but a markdown-first skill system for practical decision and action support.
 
 ### What’s Included in v0.1
@@ -102,6 +102,6 @@ It is not a web app or SaaS, but a markdown-first skill system for practical dec
 
 ### Positioning
 
-A practical Agent Skill for Chinese software engineers in career crisis, focused on: stabilize first, decide clearly, act next.
+A practical Agent Skill for people in career crisis (China workplace context), focused on: stabilize first, decide clearly, act next.
 
 

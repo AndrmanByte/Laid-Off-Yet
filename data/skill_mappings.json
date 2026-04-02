@@ -1,0 +1,166 @@
+{
+  "version": "1.0",
+  "description": "原岗位/背景 → 目标方向 的可迁移技能、缺口与转岗说明；与 role_profiles.id 对齐。",
+  "source_backgrounds": [
+    "行政/文员/助理",
+    "销售/商务",
+    "客服/售后",
+    "运营（通用）",
+    "财务/出纳",
+    "采购/供应链执行",
+    "教师/内训",
+    "门店/零售一线",
+    "技术/工程（泛）",
+    "生产/质检",
+    "无对口经验/应届生"
+  ],
+  "mappings": [
+    {
+      "from_background": "行政/文员/助理",
+      "target_role_id": "hr_recruiting",
+      "transferable_skills": ["跨部门沟通", "流程与表格", "入转调离协助经验"],
+      "skill_gaps": ["结构化面试基础", "招聘渠道与漏斗常识"],
+      "transition_note": "可投人事助理、招聘专员（助理向），用具体项目说明协作量"
+    },
+    {
+      "from_background": "行政/文员/助理",
+      "target_role_id": "admin_assistant",
+      "transferable_skills": ["会务差旅", "采购比价", "档案与上传下达"],
+      "skill_gaps": ["目标公司行业术语"],
+      "transition_note": "同类岗跨行业迁移成本低，突出稳定性与执行力"
+    },
+    {
+      "from_background": "销售/商务",
+      "target_role_id": "operations_content",
+      "transferable_skills": ["客户洞察", "文案与表达", "目标与复盘"],
+      "skill_gaps": ["平台规则", "内容结构或投放常识（视岗）"],
+      "transition_note": "用活动/案例数据做作品集，避免只写「感兴趣」"
+    },
+    {
+      "from_background": "销售/商务",
+      "target_role_id": "sales_bd",
+      "transferable_skills": ["拓客", "谈判", "回款意识"],
+      "skill_gaps": ["新行业产品知识"],
+      "transition_note": "换行业时强调方法论可迁移，愿从零学产品"
+    },
+    {
+      "from_background": "客服/售后",
+      "target_role_id": "cs_customer_service",
+      "transferable_skills": ["工单", "话术", "情绪劳动", "问题归纳"],
+      "skill_gaps": ["目标行业产品深度"],
+      "transition_note": "CSM 岗需补客户生命周期与指标意识"
+    },
+    {
+      "from_background": "客服/售后",
+      "target_role_id": "operations_content",
+      "transferable_skills": ["用户反馈", "FAQ沉淀", "跨部门拉通"],
+      "skill_gaps": ["选题与数据分析"],
+      "transition_note": "可做用户侧内容或社群向运营作品集"
+    },
+    {
+      "from_background": "运营（通用）",
+      "target_role_id": "operations_content",
+      "transferable_skills": ["活动", "数据复盘", "供应商协作"],
+      "skill_gaps": ["细分岗位差异（内容/用户/增长）"],
+      "transition_note": "投递时拆细分并附对应作品链接"
+    },
+    {
+      "from_background": "财务/出纳",
+      "target_role_id": "finance_accounting",
+      "transferable_skills": ["核对", "票据", "Excel", "合规意识"],
+      "skill_gaps": ["证书与税务深度（视岗）"],
+      "transition_note": "无证先投助理向并同步备考初级"
+    },
+    {
+      "from_background": "采购/供应链执行",
+      "target_role_id": "supply_procurement",
+      "transferable_skills": ["询价比价", "交期", "对账"],
+      "skill_gaps": ["新品类成本结构"],
+      "transition_note": "同类迁移最顺，可强调降本与替代方案案例"
+    },
+    {
+      "from_background": "教师/内训",
+      "target_role_id": "training_instructor",
+      "transferable_skills": ["表达", "课程结构", "测验反馈"],
+      "skill_gaps": ["机构合规与产品包装（视赛道）"],
+      "transition_note": "试讲视频与大纲比简历形容词重要"
+    },
+    {
+      "from_background": "门店/零售一线",
+      "target_role_id": "sales_bd",
+      "transferable_skills": ["成交", "陈列与库存意识", "客诉处理"],
+      "skill_gaps": ["B 端或大客户流程（若转）"],
+      "transition_note": "可投 ToC 销售、招商助理等衔接岗"
+    },
+    {
+      "from_background": "技术/工程（泛）",
+      "target_role_id": "product_project_coord",
+      "transferable_skills": ["逻辑", "文档", "跨部门协作", "问题定位"],
+      "skill_gaps": ["项目管理工具与里程碑写法"],
+      "transition_note": "助理向可投实施/交付协调，附项目排期案例"
+    },
+    {
+      "from_background": "生产/质检",
+      "target_role_id": "supply_procurement",
+      "transferable_skills": ["工艺与质量标准", "交期意识"],
+      "skill_gaps": ["商务谈判与合同条款"],
+      "transition_note": "制造业内部转采购/物控较常见"
+    },
+    {
+      "from_background": "无对口经验/应届生",
+      "target_role_id": "admin_assistant",
+      "transferable_skills": ["实习/兼职/社团协调"],
+      "skill_gaps": ["全职流程经验"],
+      "transition_note": "优先中小公司综合岗，积累可量化条目"
+    },
+    {
+      "from_background": "无对口经验/应届生",
+      "target_role_id": "cs_customer_service",
+      "transferable_skills": ["学习能力", "打字与沟通"],
+      "skill_gaps": ["行业产品知识"],
+      "transition_note": "在线客服岗入门相对快，需接受班次"
+    },
+    {
+      "from_background": "销售/商务",
+      "target_role_id": "consulting_advisor",
+      "transferable_skills": ["诊断需求", "方案呈现"],
+      "skill_gaps": ["方法论沉淀与案例包装", "交付边界"],
+      "transition_note": "仅在有可证明业绩与案例时建议；否则不优先"
+    },
+    {
+      "from_background": "失业需快速现金流",
+      "target_role_id": "warehouse_packing_sorting",
+      "transferable_skills": ["体力", "服从排班", "执行力"],
+      "skill_gaps": ["仓储系统与规范"],
+      "transition_note": "物流园/电商仓到岗快，适合过渡再转岗"
+    },
+    {
+      "from_background": "失业需快速现金流",
+      "target_role_id": "food_delivery_rider",
+      "transferable_skills": ["会用导航", "服务意识"],
+      "skill_gaps": ["站点规则与高峰策略"],
+      "transition_note": "众包试跑再决定是否专送；注意安全与保险"
+    },
+    {
+      "from_background": "失业需快速现金流",
+      "target_role_id": "waiter_server",
+      "transferable_skills": ["沟通", "抗压"],
+      "skill_gaps": ["餐饮流程与健康证"],
+      "transition_note": "餐饮需求广，可先包吃住岗位减轻现金流压力"
+    },
+    {
+      "from_background": "工厂/体力岗",
+      "target_role_id": "express_courier",
+      "transferable_skills": ["体力", "重复作业节奏"],
+      "skill_gaps": ["片区与客户沟通"],
+      "transition_note": "计件制，多劳多得，注意交通安全"
+    },
+    {
+      "from_background": "任何背景",
+      "target_role_id": "security_property",
+      "transferable_skills": ["纪律性", "责任心"],
+      "skill_gaps": ["保安证（部分城市）", "突发事件流程"],
+      "transition_note": "门槛相对低，适合求稳过渡"
+    }
+  ]
+}

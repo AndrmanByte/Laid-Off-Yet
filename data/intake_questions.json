@@ -1,0 +1,115 @@
+{
+  "version": "1.0",
+  "module": "就业方向咨询",
+  "usage_note": "信息不足时按顺序分批提问；硬约束（现金流、家庭）优先确认。",
+  "sections": [
+    {
+      "id": "demographics",
+      "title": "基础与地域",
+      "questions": [
+        {
+          "id": "age_range",
+          "prompt": "你的年龄段？（可答具体年龄或区间）",
+          "why": "影响部分岗位显性偏好与体力/班次类选项",
+          "maps_to_rules": ["age_stage"]
+        },
+        {
+          "id": "city",
+          "prompt": "你目前所在城市？是否可接受异地/通勤半径？",
+          "why": "决定岗位密度与收入参照",
+          "maps_to_rules": ["city_tier"]
+        },
+        {
+          "id": "education_certs",
+          "prompt": "最高学历与是否有相关证书（如会计、教资等）？",
+          "why": "部分岗位有硬性或软门槛",
+          "maps_to_rules": ["education"]
+        }
+      ]
+    },
+    {
+      "id": "work_background",
+      "title": "工作与收入背景",
+      "questions": [
+        {
+          "id": "previous_industry",
+          "prompt": "上一份工作所在行业与大致职能？",
+          "why": "映射 skill_mappings 与可迁移叙事",
+          "maps_to_rules": ["source_background"]
+        },
+        {
+          "id": "previous_role",
+          "prompt": "岗位名称与核心工作内容（三条以内）？",
+          "why": "对齐 transferable_skills",
+          "maps_to_rules": ["source_background"]
+        },
+        {
+          "id": "income_expectation",
+          "prompt": "之前到手收入大致区间？是否有明确底线？",
+          "why": "匹配收入波动型方向（销售/自由职业）",
+          "maps_to_rules": ["income_floor"]
+        },
+        {
+          "id": "runway_months",
+          "prompt": "储蓄大概能撑几个月基本开支（粗略即可）？",
+          "why": "决定收入恢复紧迫度",
+          "maps_to_rules": ["income_recovery_urgency"]
+        }
+      ]
+    },
+    {
+      "id": "constraints",
+      "title": "约束与承受度",
+      "questions": [
+        {
+          "id": "family_pressure",
+          "prompt": "家庭现金流压力（房贷/赡养/育儿）大致如何？家人是否要求稳定？",
+          "why": "慎选高波动方向",
+          "maps_to_rules": ["family_pressure"]
+        },
+        {
+          "id": "willing_to_relearn",
+          "prompt": "是否愿意在 3～6 个月内系统学习或考证？",
+          "why": "财务等路径常需补证",
+          "maps_to_rules": ["willing_to_relearn"]
+        },
+        {
+          "id": "accept_sales",
+          "prompt": "能否接受销售/提成/KPI 或对外拓客？",
+          "why": "筛选销售、商务、私域等",
+          "maps_to_rules": ["accept_sales"]
+        },
+        {
+          "id": "accept_physical_shift",
+          "prompt": "能否接受体力、倒班、周末节假日上班？",
+          "why": "零售、部分服务业",
+          "maps_to_rules": ["accept_physical_work"]
+        },
+        {
+          "id": "accept_income_volatility",
+          "prompt": "能否接受 3～6 个月收入不稳定（副业/自由职业/创业）？",
+          "why": "筛选灵活就业类",
+          "maps_to_rules": ["accept_unstable_income"]
+        }
+      ]
+    },
+    {
+      "id": "intent",
+      "title": "意向（可选）",
+      "questions": [
+        {
+          "id": "named_target",
+          "prompt": "是否已点名想试的方向（如运营、财务、自媒体）？",
+          "why": "已点名则做可行性+缺口+试水，并给兜底",
+          "maps_to_rules": ["named_transition"]
+        },
+        {
+          "id": "avoid_same",
+          "prompt": "是否明确不想回原行业/原工种？",
+          "why": "降低「同类岗位」权重或调整叙事",
+          "maps_to_rules": ["avoid_original_industry"]
+        }
+      ]
+    }
+  ]
+}

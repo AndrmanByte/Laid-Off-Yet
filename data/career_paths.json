@@ -1,0 +1,376 @@
+{
+  "version": "1.1",
+  "description": "就业方向总览条目，与 role_profiles.json 中 id 一一对应；用于快速列表与路由。",
+  "paths": [
+    {
+      "id": "continue_same_track",
+      "name": "继续找同类岗位",
+      "type": "employment",
+      "description": "在原行业/原职能上延续求职，简历与能力复利最大，转行成本最低。",
+      "who_its_for": "仍愿发挥原技能、希望风险可控、本地仍有对口岗位者。",
+      "main_risks": "行业收缩时竞争加剧；倦怠未解决易重复受挫。",
+      "difficulty": 1,
+      "recommendation_score": 9
+    },
+    {
+      "id": "admin_assistant",
+      "name": "行政 / 助理",
+      "type": "employment",
+      "description": "综合事务、会务、采购、上传下达，跨行业可投，门槛相对可控。",
+      "who_its_for": "细心、能承受杂事、服务意识强者。",
+      "main_risks": "杂事多、天花板明显、易被低估。",
+      "difficulty": 2,
+      "recommendation_score": 7
+    },
+    {
+      "id": "hr_recruiting",
+      "name": "人事 / 招聘",
+      "type": "employment",
+      "description": "招聘交付、入转调离、部分 HRBP 助理向，沟通量大。",
+      "who_its_for": "喜欢与人打交道、能承受指标与重复沟通者。",
+      "main_risks": "KPI 压力、情绪劳动、部分岗位加班。",
+      "difficulty": 3,
+      "recommendation_score": 6
+    },
+    {
+      "id": "finance_accounting",
+      "name": "财务 / 出纳 / 统计",
+      "type": "employment",
+      "description": "出纳、费用、应收应付、统计核对，路径标准但常需基础证书或经验。",
+      "who_its_for": "细心、对数字敏感、愿补会计基础者。",
+      "main_risks": "无证跨界难度上升；责任边界需清晰。",
+      "difficulty": 4,
+      "recommendation_score": 6
+    },
+    {
+      "id": "sales_bd",
+      "name": "销售 / 商务",
+      "type": "employment",
+      "description": "客户开发、谈判、回款，岗位数量常多，收入常含提成波动。",
+      "who_its_for": "能承受拒绝与指标、需要较快现金流且能接受波动者。",
+      "main_risks": "压力大、收入不稳、部分加班多。",
+      "difficulty": 3,
+      "recommendation_score": 7
+    },
+    {
+      "id": "cs_customer_service",
+      "name": "客户成功 / 客服",
+      "type": "employment",
+      "description": "工单、在线客服、CSM（视公司含续约/增购），入门相对快。",
+      "who_its_for": "耐心、表达清晰、愿做情绪劳动者。",
+      "main_risks": "情绪劳动、倒班；CSM 常有指标。",
+      "difficulty": 2,
+      "recommendation_score": 7
+    },
+    {
+      "id": "operations_content",
+      "name": "运营 / 新媒体 / 内容",
+      "type": "employment",
+      "description": "内容、活动、用户、新媒体等，通常需要作品或数据证明。",
+      "who_its_for": "愿意输出与复盘、能接受迭代者。",
+      "main_risks": "竞争与加班；需作品避免空泛兴趣。",
+      "difficulty": 3,
+      "recommendation_score": 6
+    },
+    {
+      "id": "product_project_coord",
+      "name": "产品 / 项目协调",
+      "type": "employment",
+      "description": "产品助理、项目助理、实施协调，偏文档与推进。",
+      "who_its_for": "逻辑清晰、擅长沟通排期与文档者。",
+      "main_risks": "核心岗门槛高；助理向需行业与项目经验积累。",
+      "difficulty": 4,
+      "recommendation_score": 6
+    },
+    {
+      "id": "supply_procurement",
+      "name": "供应链 / 采购",
+      "type": "employment",
+      "description": "采购、跟单、物控，制造业与零售链路常见。",
+      "who_its_for": "细致、有成本与交期意识、能扯皮协调者。",
+      "main_risks": "供应商与内部扯皮；责任边界。",
+      "difficulty": 3,
+      "recommendation_score": 6
+    },
+    {
+      "id": "training_instructor",
+      "name": "培训 / 讲师",
+      "type": "employment",
+      "description": "企业内训、机构讲师、技能讲师等，依赖表达与领域知识。",
+      "who_its_for": "能讲清楚、愿备课、有领域积累者。",
+      "main_risks": "备课耗时；教培/机构受政策与招生影响。",
+      "difficulty": 3,
+      "recommendation_score": 6
+    },
+    {
+      "id": "freelance_gigs",
+      "name": "自由职业接单",
+      "type": "flexible",
+      "description": "设计、文案、开发、翻译等技能型接单，收入波动、需获客与交付。",
+      "who_its_for": "已有可售卖技能与案例、能承受账期与波动者。",
+      "main_risks": "断档、社保自缴、议价与催收压力。",
+      "difficulty": 4,
+      "recommendation_score": 6
+    },
+    {
+      "id": "self_media",
+      "name": "自媒体 / 内容创作",
+      "type": "flexible",
+      "description": "平台创作者，周期长、幸存者偏差大，适合副业试水而非孤注一掷。",
+      "who_its_for": "愿持续输出、能接受长期低收入验证者。",
+      "main_risks": "算法与政策、焦虑、现金流不确定。",
+      "difficulty": 4,
+      "recommendation_score": 5
+    },
+    {
+      "id": "ecommerce_resell",
+      "name": "电商 / 淘宝拼多多 / 网店",
+      "type": "flexible",
+      "description": "轻资产选品与运营，可并行求职；需注意规则与售后。",
+      "who_its_for": "愿研究选品与规则、能接受售后琐碎者。",
+      "main_risks": "罚款、库存、品控与平台政策变动。",
+      "difficulty": 3,
+      "recommendation_score": 6
+    },
+    {
+      "id": "consulting_advisor",
+      "name": "咨询 / 顾问",
+      "type": "flexible",
+      "description": "轻咨询、行业顾问，依赖可证明案例与获客，非速成高收入。",
+      "who_its_for": "有细分领域积累与案例、能接受项目制者。",
+      "main_risks": "获客周期长、回款与交付边界。",
+      "difficulty": 5,
+      "recommendation_score": 5
+    },
+    {
+      "id": "small_business",
+      "name": "小生意 / 个体经营",
+      "type": "flexible",
+      "description": "餐饮、零售、服务等个体经营，失败率与强度被低估。",
+      "who_its_for": "有本金与心理承受力、愿算账与合规者。",
+      "main_risks": "亏损与负债、监管与体力。",
+      "difficulty": 5,
+      "recommendation_score": 4
+    },
+    {
+      "id": "ride_hailing_driver",
+      "name": "网约车司机",
+      "type": "platform",
+      "description": "平台注册接单，收入与油费车租强相关，多劳多得。",
+      "who_its_for": "驾照合规、熟悉路况、能接受久坐与服务分规则者。",
+      "main_risks": "车损油费、政策与人证车证、平台罚款。",
+      "difficulty": 2,
+      "recommendation_score": 7
+    },
+    {
+      "id": "food_delivery_rider",
+      "name": "外卖骑手",
+      "type": "platform",
+      "description": "众包或专送，入职快，体力与安全风险需正视。",
+      "who_its_for": "身体好、需快速现金流、能接受高峰与户外者。",
+      "main_risks": "交通事故、罚款投诉、季节单量波动。",
+      "difficulty": 2,
+      "recommendation_score": 8
+    },
+    {
+      "id": "same_city_courier",
+      "name": "同城配送 / 跑腿",
+      "type": "platform",
+      "description": "按单计件，抢单模式，收入波动。",
+      "who_its_for": "本地熟、会用导航、能处理货损纠纷者。",
+      "main_risks": "纠纷、货损、单量不稳。",
+      "difficulty": 2,
+      "recommendation_score": 7
+    },
+    {
+      "id": "express_courier",
+      "name": "快递员",
+      "type": "platform",
+      "description": "站点派件或加盟，计件为主，体力活。",
+      "who_its_for": "能吃苦、愿固定片区者。",
+      "main_risks": "投诉罚款、旺季加班。",
+      "difficulty": 2,
+      "recommendation_score": 7
+    },
+    {
+      "id": "freight_driver",
+      "name": "货运司机 / 货拉拉",
+      "type": "platform",
+      "description": "货运平台或自带车，车辆折旧与纠纷成本高。",
+      "who_its_for": "货车驾照与车型匹配、能承受装卸与平台规则者。",
+      "main_risks": "车损、货损纠纷、违章。",
+      "difficulty": 3,
+      "recommendation_score": 6
+    },
+    {
+      "id": "warehouse_packing_sorting",
+      "name": "电商打包 / 仓库 / 分拣",
+      "type": "employment",
+      "description": "物流仓储一线，门槛低、到岗快，适合过渡。",
+      "who_its_for": "能接受站立重复与旺季加班者。",
+      "main_risks": "夜班通勤、体力透支。",
+      "difficulty": 2,
+      "recommendation_score": 8
+    },
+    {
+      "id": "designated_driver",
+      "name": "代驾",
+      "type": "platform",
+      "description": "夜间为主，驾驶技术与情绪管理并重。",
+      "who_its_for": "熟练驾驶、能熬夜、服务心态稳定者。",
+      "main_risks": "事故纠纷、熬夜健康。",
+      "difficulty": 3,
+      "recommendation_score": 6
+    },
+    {
+      "id": "waiter_server",
+      "name": "服务员",
+      "type": "service",
+      "description": "餐饮一线，需求广，门槛低。",
+      "who_its_for": "能接受班次与体力、服务意识强者。",
+      "main_risks": "节假日高峰、情绪劳动。",
+      "difficulty": 2,
+      "recommendation_score": 8
+    },
+    {
+      "id": "retail_clerk",
+      "name": "店员 / 营业员",
+      "type": "service",
+      "description": "商超便利店等，排班与防损。",
+      "who_its_for": "细心、稳定出勤、能接受站班者。",
+      "main_risks": "夜班、防损压力。",
+      "difficulty": 2,
+      "recommendation_score": 8
+    },
+    {
+      "id": "retail_sales",
+      "name": "门店销售",
+      "type": "service",
+      "description": "导购与提成，锻炼面销能力。",
+      "who_its_for": "愿意做销售、能接受站班与业绩者。",
+      "main_risks": "业绩波动、情绪劳动。",
+      "difficulty": 2,
+      "recommendation_score": 7
+    },
+    {
+      "id": "real_estate_agent",
+      "name": "房产中介",
+      "type": "service",
+      "description": "长周期、高拒绝，成交分化极大。",
+      "who_its_for": "外向、能跑盘、能承受前期低收入者。",
+      "main_risks": "市场周期、合规与纠纷。",
+      "difficulty": 3,
+      "recommendation_score": 6
+    },
+    {
+      "id": "insurance_sales",
+      "name": "保险销售",
+      "type": "service",
+      "description": "佣金制，合规与长期经营并重。",
+      "who_its_for": "愿考证、能长期经营客户关系者。",
+      "main_risks": "初期收入低、口碑风险。",
+      "difficulty": 4,
+      "recommendation_score": 5
+    },
+    {
+      "id": "security_property",
+      "name": "保安 / 物业",
+      "type": "service",
+      "description": "秩序与巡逻，门槛相对低，倒班常见。",
+      "who_its_for": "能接受倒班、求稳过渡者。",
+      "main_risks": "冲突与枯燥。",
+      "difficulty": 2,
+      "recommendation_score": 7
+    },
+    {
+      "id": "cleaning_housekeeping",
+      "name": "保洁 / 家政",
+      "type": "service",
+      "description": "入户或平台派单，需求稳，体力与纠纷并存。",
+      "who_its_for": "细致、体力可、愿做服务者。",
+      "main_risks": "差评纠纷、意外与保险。",
+      "difficulty": 2,
+      "recommendation_score": 7
+    },
+    {
+      "id": "organizing_service",
+      "name": "收纳整理",
+      "type": "service",
+      "description": "服务+呈现，获客与培训市场参差。",
+      "who_its_for": "空间感好、耐心、愿积累案例者。",
+      "main_risks": "获客难、课程踩坑。",
+      "difficulty": 3,
+      "recommendation_score": 5
+    },
+    {
+      "id": "nanny_caregiver",
+      "name": "月嫂 / 护工",
+      "type": "service",
+      "description": "刚需技能服务，责任与伦理压力高。",
+      "who_its_for": "有耐心、愿正规培训与持证者。",
+      "main_risks": "责任纠纷、身心负荷。",
+      "difficulty": 4,
+      "recommendation_score": 6
+    },
+    {
+      "id": "private_tutor",
+      "name": "家教 / 辅导",
+      "type": "service",
+      "description": "按小时计时，依赖科目能力与口碑。",
+      "who_its_for": "学科能讲清楚、能沟通家长者。",
+      "main_risks": "政策与合规、退费纠纷。",
+      "difficulty": 3,
+      "recommendation_score": 7
+    },
+    {
+      "id": "idle_fish_resell",
+      "name": "闲鱼倒卖",
+      "type": "flexible",
+      "description": "低门槛二手流转，利润薄、规则与售后琐碎。",
+      "who_its_for": "会看品、愿打包客服、小额试错者。",
+      "main_risks": "假货与处罚、时薪不高。",
+      "difficulty": 2,
+      "recommendation_score": 6
+    },
+    {
+      "id": "community_commerce",
+      "name": "社群卖货",
+      "type": "flexible",
+      "description": "私域与团长模式，品控与信任是关键。",
+      "who_its_for": "有社群或线下场景、愿做售后者。",
+      "main_risks": "伤人脉、品控与罚款。",
+      "difficulty": 3,
+      "recommendation_score": 6
+    },
+    {
+      "id": "street_stall_snacks",
+      "name": "摆摊 / 小吃",
+      "type": "flexible",
+      "description": "最小餐饮创业，政策与选址决定生死。",
+      "who_its_for": "能吃苦、小额本金、愿合规办证者。",
+      "main_risks": "城管与食安、天气、损耗。",
+      "difficulty": 3,
+      "recommendation_score": 6
+    },
+    {
+      "id": "breakfast_milktea_shop",
+      "name": "早餐店 / 奶茶店",
+      "type": "flexible",
+      "description": "小微餐饮，加盟坑与红海竞争常见。",
+      "who_its_for": "有餐饮经验与本金、能算细账者。",
+      "main_risks": "租金转让费、回本周期。",
+      "difficulty": 4,
+      "recommendation_score": 5
+    },
+    {
+      "id": "community_group_buying",
+      "name": "社区团购",
+      "type": "flexible",
+      "description": "平台团长分润，多为补充收入。",
+      "who_its_for": "有提货点或邻里信任、愿处理售后者。",
+      "main_risks": "利润薄、平台规则变动、生鲜损耗。",
+      "difficulty": 2,
+      "recommendation_score": 6
+    }
+  ]
+}

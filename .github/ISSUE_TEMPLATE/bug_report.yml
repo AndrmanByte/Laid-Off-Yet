@@ -1,4 +1,4 @@
-﻿name: Bug Report
+name: Bug Report
 description: 报告一个内容错误、结构问题或逻辑缺陷
 title: "[bug] "
 labels:
@@ -17,7 +17,7 @@ body:
     id: file_path
     attributes:
       label: 相关文件路径
-      placeholder: 例如 .agents/skills/程序员未来/decision-tree.md
+      placeholder: 例如 .agents/skills/裁了吗/decision-tree.md
     validations:
       required: true
 

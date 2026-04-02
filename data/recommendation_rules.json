@@ -1,0 +1,93 @@
+{
+  "version": "1.1",
+  "description": "基于用户约束对 role_id 做加权/降权/排除的启发式规则，非确定性算法；输出时须向用户说明为参考。",
+  "dimensions": {
+    "income_recovery_urgency": {
+      "values": ["critical", "high", "medium", "low"],
+      "notes": "critical：≤1个月需现金流；high：≤3个月；medium：3～6个月；low：>6个月"
+    },
+    "age_stage": {
+      "values": ["under_30", "30_39", "40_49", "50_plus"],
+      "notes": "仅作启发式，禁止歧视性结论；可提示「部分 JD 存在年龄偏好，需证据与本地验证」"
+    },
+    "city_tier": {
+      "values": ["tier1_newtier1", "tier2", "tier3_below", "remote"],
+      "notes": "一线/新一线岗位类型更多；三四线销售服务岗仍常见"
+    },
+    "family_pressure": {
+      "values": ["high", "medium", "low"],
+      "notes": "高：月供/赡养刚性；慎选纯波动收入起步"
+    },
+    "willing_to_relearn": {
+      "values": [true, false],
+      "notes": "false 时降低需考证路径权重"
+    },
+    "accept_sales": {
+      "values": [true, false],
+      "notes": "false 时降低 sales_bd、部分私域/商务权重"
+    },
+    "accept_unstable_income": {
+      "values": [true, false],
+      "notes": "false 时降低 freelance_gigs、self_media、ecommerce_resell、consulting_advisor、small_business"
+    },
+    "avoid_original_industry": {
+      "values": [true, false],
+      "notes": "true 时 continue_same_track 降权或改为「跨行业同类职能」叙事"
+    }
+  },
+  "rules": [
+    {
+      "id": "urgent_cashflow",
+      "when": { "income_recovery_urgency": ["critical", "high"] },
+      "boost": ["continue_same_track", "sales_bd", "admin_assistant", "cs_customer_service", "food_delivery_rider", "warehouse_packing_sorting", "waiter_server", "retail_clerk"],
+      "penalize": ["self_media", "consulting_advisor", "breakfast_milktea_shop"],
+      "note": "先求到岗与现金流；平台体力岗与服务业一线为真实兜底池（须接受强度与规则）"
+    },
+    {
+      "id": "stable_income_needed",
+      "when": { "family_pressure": "high", "accept_unstable_income": false },
+      "boost": ["continue_same_track", "finance_accounting", "supply_procurement"],
+      "penalize": ["freelance_gigs", "self_media", "small_business"],
+      "note": "高家庭压力且不能接受波动时，优先可见底薪岗位"
+    },
+    {
+      "id": "no_sales",
+      "when": { "accept_sales": false },
+      "penalize": ["sales_bd"],
+      "boost": ["admin_assistant", "finance_accounting", "operations_content"],
+      "note": "非销售岗竞争与门槛需同步说明"
+    },
+    {
+      "id": "no_relearn",
+      "when": { "willing_to_relearn": false },
+      "penalize": ["finance_accounting"],
+      "boost": ["admin_assistant", "cs_customer_service", "sales_bd"],
+      "note": "无证转行财务助理难度上升，可改为助理向或先岗后证"
+    },
+    {
+      "id": "flexible_accepted",
+      "when": { "accept_unstable_income": true, "income_recovery_urgency": "low" },
+      "boost": ["freelance_gigs", "ecommerce_resell", "consulting_advisor"],
+      "note": "仍须设最低现金流与止损线"
+    },
+    {
+      "id": "avoid_same_industry",
+      "when": { "avoid_original_industry": true },
+      "penalize": ["continue_same_track"],
+      "boost": ["operations_content", "admin_assistant", "sales_bd"],
+      "note": "跨行业时强调可迁移技能与作品/访谈证据"
+    },
+    {
+      "id": "age_40_plus",
+      "when": { "age_stage": ["40_49", "50_plus"] },
+      "boost": ["consulting_advisor", "training_instructor", "supply_procurement"],
+      "note": "需强调案例与本地机会验证，避免「零基础速成热门」叙事",
+      "soft_penalize": ["self_media"]
+    }
+  ],
+  "selection_policy": {
+    "max_recommendations": 5,
+    "min_recommendations": 3,
+    "always_disclaimer": "推荐为启发式排序，最终以本地招聘与个体试准为准；不替用户做决定。"
+  }
+}
