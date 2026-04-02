@@ -14,6 +14,10 @@
 </p>
 <p align="center"><sub>Note: GitHub shows <code>README.md</code> by default; this file is the English README.</sub></p>
 
+<p align="center">
+  <strong>Friends</strong>: <a href="https://linux.do">LINUX DO</a> — this project is linked with the LINUX DO community.
+</p>
+
 ---
 
 <h2 id="sec-what">🤔 What is this?</h2>
@@ -83,6 +87,7 @@ Follow the skill structure: stabilize, situation assessment, today/this week act
 - [Roadmap](#sec-roadmap)
 - [Contributing](#sec-contributing)
 - [License](#sec-license)
+- [Friends / LINUX DO](#sec-friends)
 
 <h2 id="sec-not">🧐 What this is not</h2>
 
@@ -182,6 +187,12 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md).
 <h2 id="sec-license">⚖️ License</h2>
 
 MIT—see [LICENSE](./LICENSE).
+
+<h2 id="sec-friends">🔗 Friends / LINUX DO</h2>
+
+This open-source project is recognized by the [LINUX DO](https://linux.do) community and maintains a mutual link:
+
+- **LINUX DO**: <https://linux.do> — Open Chinese-language tech community (*Where possible begins*).
 
 <h2 id="sec-release">💡 Release kit</h2>
 

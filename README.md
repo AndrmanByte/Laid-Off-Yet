@@ -14,6 +14,10 @@
 </p>
 <p align="center"><sub>说明：GitHub 仓库首页固定显示 <code>README.md</code>；英文说明见 <a href="README.en.md">README.en.md</a>。</sub></p>
 
+<p align="center">
+  <strong>友链</strong>：<a href="https://linux.do">LINUX DO</a>（本开源项目已与 LINUX DO 社区建立友链）
+</p>
+
 ---
 
 <h2 id="sec-what">🤔 裁了么是什么</h2>
@@ -83,6 +87,7 @@ Codex、OpenClaw、Claude Code 等 Agent 均可加载。
 - [Roadmap](#sec-roadmap)
 - [Contributing](#sec-contributing)
 - [License](#sec-license)
+- [友链](#sec-friends)
 
 <h2 id="sec-not">🧐 这个项目不是什么</h2>
 
@@ -184,6 +189,12 @@ Laid-Off-Yet/
 <h2 id="sec-license">⚖️ License</h2>
 
 MIT，详见 [LICENSE](./LICENSE)。
+
+<h2 id="sec-friends">🔗 友链</h2>
+
+本仓库为 [LINUX DO](https://linux.do) 社区认可的开源项目，与社区建立友链如下：
+
+- **LINUX DO**：<https://linux.do> — 开放的中文技术社区（Where possible begins）
 
 <h2 id="sec-release">💡 发布素材</h2>
 
